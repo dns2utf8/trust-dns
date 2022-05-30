@@ -87,6 +87,9 @@ tokio-rustls = { version = "0.23.0", optional = true }
 trust-dns-proto = { version = "0.21.1", path = "../proto", default-features = false }
 webpki-roots = { version = "0.22.1", optional = true }
 
+networkmanager = "0.3"
+dbus = "0.9"
+
 [target.'cfg(windows)'.dependencies]
 ipconfig = { version = "0.3.0", optional = true }
 
